@@ -1,0 +1,9 @@
+server:
+  port: 81
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ssm_db?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=true
+    username: root
+    password: hjf
+    type: com.alibaba.druid.pool.DruidDataSource
